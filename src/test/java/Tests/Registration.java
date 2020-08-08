@@ -22,7 +22,7 @@ public class Registration extends BaseTest{
         Lpage.CreateNewAccount("AhmedAhmed121214@gmail.com");
 
         Rpage = new RegisterationPage(driver);
-        Rpage.FillRegistrationForm("Omar", "EL-sayed", "KosomAgile","Microsoft", "LasVegas","LasVegas2","Cairo","California","11841","United States","More Information is required","01118888245","01019884890" );
+        Rpage.FillRegistrationForm("Omar", "EL-sayed", "P@ssw0rd","Microsoft", "LasVegas","LasVegas2","Cairo","California","11841","United States","More Information is required","01118888245","01019884890" );
 
         Myaccount = new MyAccountPage(driver);
         Myaccount.VerifyAccountRegistered();
